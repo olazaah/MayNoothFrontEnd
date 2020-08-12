@@ -1,0 +1,47 @@
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Raleway', sans-serif; */
+
+.my-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.nav-item{
+    font-family: 'Raleway', sans-serif;
+}
+
+.search-bar{
+    width: 100%;
+    height: auto;
+    background-color: #dddddd86;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 0.3125rem;
+}
+
+.search-area{
+    border: none;
+    background-color: #dddddd00;
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#searchButton{
+    padding-left: 0.5rem;
+}
+
+.search-area:focus{
+    border:none;
+    outline: none;
+}
+
+
+
