@@ -13,6 +13,10 @@ font-family: 'Raleway', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 .search-bar{
     width: 100%;
@@ -191,4 +195,110 @@ font-family: 'Raleway', sans-serif; */
 }
 
 
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto;
+    min-height: 800px;
+}
+
+.grid-1{
+    grid-row: 1; grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+}
+
+.grid-2{
+    grid-row: 1; grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 0.5fr 1fr 0.5fr;
+    grid-template-columns: auto;
+}
+
+.image-6{
+    grid-row: 1;
+    background-color: burlywood;
+    background-image: url("images/my-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-7{
+    grid-row: 2;
+    background-color: blue;
+    background-image: url("images/my-5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-8{
+    grid-row: 3;
+    background-color: blanchedalmond;
+    background-image: url("images/my-6.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-9{
+    grid-row: 4;
+    background-color: bisque;
+    background-image: url("images/my-9.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-1-1{
+    grid-row: 1;
+    background-color: darkkhaki;
+    background-image: url("images/my-1.jpg");
+    max-height: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-1-2{
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    grid-row: auto;
+}
+
+.grid-1-3{
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    grid-row: auto;
+}
+
+.image-2{
+    grid-column: 1;
+    background-color: chocolate;
+    background-image: url("images/my-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-3{
+    grid-column: 2;
+    background-color: cornsilk;
+    background-image: url("images/my-4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-4{
+    grid-column: 1;
+    background-color: cyan;
+    background-image: url("images/my-7.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-5{
+    grid-column: 2;
+    background-color: darkgray;
+    background-image: url("images/my-8.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
